@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1489875347897-49f64b51c1f8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    color: navy;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+
+
+
+
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: 30px;
+    font-size: 20px;
+    overflow: auto;
+    background-color: rgba(120, 120, 120, 0.5);
+    padding: 15px;
+    
+    
+}
+
+nav a:hover {
+    background-color: rgb(60, 60, 60)
+}
+
+ul {
+    width: fit-content;
+    margin: auto;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue;
+    padding: 40px;
+}
+
+ul li a:hover {
+    text-decoration: none;
+}
+

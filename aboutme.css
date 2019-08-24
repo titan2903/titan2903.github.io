@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(https://i.ibb.co/dbsK4VN/daniel-monteiro-5q-GIXvd-NOpw-unsplash.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+nav {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    margin-top: 30px;
+    font-size: 20px;
+    overflow: auto;
+    background-color: rgba(120, 120, 120, 0.5);
+    padding: 15px;
+    
+    
+}
+
+nav a:hover {
+    background-color: rgb(9, 216, 231)
+}
+
+ul {
+    width: fit-content;
+    margin: auto;
+    list-style: none;
+}
+
+ul li {
+    float: left;
+    margin-right: 30px;
+}
+
+ul li a {
+    text-decoration: none;
+    color: blue;
+    padding: 40px;
+}
+
+ul li a:hover {
+    text-decoration: none;
+}

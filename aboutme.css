@@ -1,7 +1,7 @@
 body {
     margin: 0;
     padding: 0;
-    background-image: url(https://i.ibb.co/dbsK4VN/daniel-monteiro-5q-GIXvd-NOpw-unsplash.jpg);
+    background-image: url(https://i.ibb.co/1fVmPVd/q-GRf-Yqja-HHAJIm9c6-Km-Npaufysw-HYb-UI09i5g-Gw1-Offf-Eq-Pa-Jn-X17las0-Lf-AHv-JP7x-XNWpr4-Tx6wl-Y7c9s506kk-O6ymm-QNs-KQln-Qn9-M4whlh-UOyx-Pi2l0p0ex-D7-Eu-Cx-Ack-Tj-Gz04-Xr-ATj-Jz-c-Od3lqh-WYZQISOKz-UK9-SNCn-IWk-X-ckb7udi-CRzc7dnav-ESPyq61-Bq-Eu-Gkmq3-F4-QTBxv-Zu9d-RZm-FOJUNJz-WB4-V1y-Wpbn-FV6-Ig-TFuv-Ajk-Zy345-B.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -45,3 +45,28 @@ ul li a {
 ul li a:hover {
     text-decoration: none;
 }
+
+h1 {
+    color: whitesmoke;
+    position: absolute;
+    left: 50%;
+    top: 25%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 3em;
+}
+
+p {
+    color: greenyellow;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 18px;
+    
+}
+
+

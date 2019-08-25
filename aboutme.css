@@ -47,7 +47,7 @@ ul li a:hover {
 }
 
 h1 {
-    color: whitesmoke;
+    color: navy;
     position: absolute;
     left: 50%;
     top: 25%;
@@ -58,7 +58,7 @@ h1 {
 }
 
 p {
-    color: greenyellow;
+    color: black;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -68,5 +68,7 @@ p {
     font-size: 18px;
     
 }
+
+
 
 
